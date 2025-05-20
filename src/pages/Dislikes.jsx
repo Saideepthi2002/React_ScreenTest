@@ -34,7 +34,7 @@ export default function Dislikes() {
         {dislikedMovies.map((movie) => (
           <div key={movie.id} style={{ border: "1px solid #ccc", borderRadius: "8px", padding: "10px" }}>
             <img
-              src={movie.image}
+              src={movie.poster}
               alt={movie.title}
               style={{ width: "100%", borderRadius: "6px" }}
             />
