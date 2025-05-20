@@ -1,0 +1,35 @@
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.movie-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+}
+
+.actions {
+  margin-top: 10px;
+}
+
+.actions button {
+  margin: 0 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.liked {
+  color: green;
+}
+
+.disliked {
+  color: red;
+}
